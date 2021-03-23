@@ -1,0 +1,59 @@
+{
+    "id": 4234467429,
+    "status": "paid",
+    "status_detail": null,
+    "date_created": "2013-05-27T10:01:50.000-04:00",
+    "date_closed": "2013-05-27T10:04:07.000-04:00",
+    "order_items": [{
+   	 "item": {
+   		 "id": "MLB12345678",
+   		 "title": "Motorola G9",
+   		 "variation_id": 1234,
+                 "variation_attributes": [
+		    {
+                        "id": "COLOR",
+                        "name": "Color",
+                        "value_id": "4820006",
+                        "value_name": "Rosa"
+                    }]
+   	 },
+   	 "quantity": 1,
+   	 "unit_price": 27000,
+   	 "currency_id": "ARS"
+    }],
+    "total_amount": 27000,
+    "currency_id": "ARS",
+    "buyer": {
+   	 "id": "123456783",
+   	 "nickname": "COMPRADORTESTE",
+   	 "email": "b@b.com",
+   	 "first_name": "Comprador de testes",
+   	 "last_name": "da Silva",
+    },
+    "seller": {
+   	 "id": "123456789",
+   	 "nickname": "VENDEDORTESTES",
+   	 "email": "a@a.com",
+   	 "first_name": "Vendedor de Testes",
+   	 "last_name": "testes de documentacao"
+    },
+    "payments": [{
+   	 "id": "576707837",
+   	 "transaction_amount": 27000,
+   	 "currency_id": "ARS",
+   	 "status": "approved",
+   	 "date_created": null,
+   	 "date_last_modified": null
+    }],
+    "feedback": {
+   	 "purchase": null,
+   	 "sale": null
+    },
+    "shipping": {
+   	 "id": 21676482441
+    },
+    "tags": [
+   	 "paid",
+   	 "not_delivered"
+    ]
+}

@@ -1,0 +1,8 @@
+[
+   {
+       "payment_id": 586707837,
+       "user_id": 123456786,
+       "amount": 500,
+       "status": "approved"
+   }
+]

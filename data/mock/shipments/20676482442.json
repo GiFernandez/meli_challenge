@@ -1,0 +1,186 @@
+{
+  "id": 20676482442,
+   "mode": "me2",
+    "created_by": "receiver",
+    "order_id": 4234458807,
+    "order_cost": 499,
+    "base_cost": 499,
+    "site_id": "MLA",
+    "status": "delivered",
+    "substatus": "fulfilled_feedback",
+    "status_history": {
+        "date_cancelled": null,
+        "date_delivered": "2021-03-25T00:00:00.001-03:00",
+        "date_first_visit": null,
+        "date_handling": "2021-03-17T15:36:31.000-04:00",
+        "date_not_delivered": null,
+        "date_ready_to_ship": "2021-03-17T15:36:31.000-04:00",
+        "date_shipped": null,
+        "date_returned": null
+    },
+    "substatus_history": [],
+    "date_created": "2021-03-17T15:36:27.000-04:00",
+    "last_updated": "2021-03-17T17:21:00.000-04:00",
+    "tracking_number": "101010594434506000",
+    "tracking_method": "Total Express",
+    "service_id": 422,
+    "carrier_info": null,
+    "sender_id": 730297376,
+    "sender_address": {
+        "id": 1162782163,
+        "address_line": "Av. Atlantica 3264",
+        "street_name": "XXXXXXX",
+        "street_number": "XXXXXXX",
+        "comment": "XXXXXXX",
+        "zip_code": "22070",
+        "city": {
+            "id": "TBR-SP-44",
+            "name": "Copacabana"
+        },
+        "state": {
+            "id": "BR-SP",
+            "name": "Rio de Janeiro"
+        },
+        "country": {
+            "id": "BR",
+            "name": "Brasil"
+        },
+        "neighborhood": {
+            "id": null,
+            "name": "Vila Diva (Zona Norte)"
+        },
+        "municipality": {
+            "id": null,
+            "name": null
+        },
+        "agency": null,
+        "types": [
+            "billing",
+            "default_selling_address",
+            "shipping"
+        ],
+        "latitude": null,
+        "longitude": null,
+        "geolocation_type": null,
+        "geolocation_last_updated": null,
+        "geolocation_source": null
+    },
+    "receiver_id": 4322312345,
+    "receiver_address": {
+        "id": 123456789,
+        "address_line": "Avenida Brigadeiro Faria 123456",
+        "street_name": "Avenida Brigadeiro Faria",
+        "street_number": "123456",
+        "comment": null,
+        "zip_code": "0713123456",
+        "city": {
+            "id": "BR-SP-41",
+            "name": "Guarulhos"
+        },
+        "state": {
+            "id": "BR-SP",
+            "name": "São Paulo"
+        },
+        "country": {
+            "id": "BR",,
+            "name": "Brasil"
+        },
+        "neighborhood": {
+            "id": null,
+            "name": "Cocaia"
+        },
+        "municipality": {
+            "id": null,
+            "name": null
+        },
+        "agency": null,
+        "types": [
+            "default_buying_address"
+        ],
+        "latitude": -34.556088,
+        "longitude": -58.461684,
+        "geolocation_type": "RANGE_INTERPOLATED",
+        "geolocation_last_updated": "2021-03-17T19:38:45Z",
+        "geolocation_source": "google-maps",
+        "delivery_preference": "residential",
+        "receiver_name": "Test User",
+        "receiver_phone": "011 45842943"
+    },
+    "shipping_items": [
+        {
+            "id": "MLA912335051",
+            "description": "Funda para Galaxy A20",
+            "quantity": 1,
+            "dimensions": "14.0x19.0x29.0,580.0",
+            "dimensions_source": {
+                "id": "MLA912335051__1",
+                "origin": "brand_model"
+            }
+        }
+    ],
+    "shipping_option": {
+        "id": 2878634204,
+        "shipping_method_id": 73328,
+        "name": "Normal a domicilio",
+        "currency_id": "BRL",
+        "list_cost": 499,
+        "cost": 499,
+        "delivery_type": "estimated",
+        "estimated_schedule_limit": {
+            "date": null
+        },
+        "buffering": {
+            "date": null
+        },
+        "estimated_delivery_time": {
+            "type": "known",
+            "date": "2021-03-22T00:00:00.000-03:00",
+            "unit": "hour",
+            "offset": {
+                "date": null,
+                "shipping": null
+            },
+            "time_frame": {
+                "from": null,
+                "to": null
+            },
+            "pay_before": "2021-03-18T00:00:00.000-03:00",
+            "shipping": 48,
+            "handling": 24,
+            "schedule": null
+        },
+        "estimated_delivery_limit": {
+            "date": "2021-04-12T00:00:00.000-03:00",
+            "offset": 240
+        },
+        "estimated_delivery_final": {
+            "date": "2021-05-10T00:00:00.000-03:00",
+            "offset": 720
+        },
+        "estimated_delivery_extended": {
+            "date": "2021-03-30T00:00:00.000-03:00",
+            "offset": 72
+        },
+        "estimated_handling_limit": {
+            "date": "2021-03-18T00:00:00.000-03:00"
+        }
+    },
+    "comments": null,
+    "date_first_printed": null,
+    "market_place": "MELI",
+    "return_details": null,
+    "tags": [
+        "test_shipment"
+    ],
+    "type": "forward",
+    "logistic_type": "drop_off",
+    "application_id": null,
+    "return_tracking_number": null,
+    "cost_components": {
+        "special_discount": 0,
+        "loyal_discount": 0,
+        "compensation": 0,
+        "gap_discount": 0,
+        "ratio": 0
+    }
+}
