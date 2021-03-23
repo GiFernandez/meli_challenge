@@ -38,6 +38,8 @@ Unix
 java -cp ".:./jars/*" EjercicioUno {environment} {acceso_token}
 ```
 
+El archivo de salida se consulta desde `data/output/output_1.csv`
+
 ### Explicación genérica del programa
 
 1. Al iniciar, el script evalúa el entorno definido por parámetro, leyendo el primer parámetro enviado. Esto se guarda en una variable global `ENVIRONMENT` que será utilizada a lo largo del programa. En caso de error se muestra mensaje en consola. 
