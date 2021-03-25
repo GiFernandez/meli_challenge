@@ -58,7 +58,7 @@ public class EjercicioUno {
 		// Se obtienen las ordenes a buscar
 		String[] orders;
 		System.out.println("INFO: Obteniendo las ordenes a consultar...");
-		orders = getOrders(new FileReader("data/sources/orders.csv")); // orders.csv es el posta
+		orders = getOrders(new FileReader("data/sources/orders.csv"));
 		
 		Set<JSONObject> jsonOrders = new HashSet<JSONObject>();
 		JSONObject currentOrder;
