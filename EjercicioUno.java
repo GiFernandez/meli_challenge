@@ -342,8 +342,8 @@ public class EjercicioUno {
 		
 		address = obj.get("address_line").toString();
 		address += " (" + obj.get("zip_code").toString() + ")";
-		address += " " + ((JSONObject) obj.get("city")).get("name").toString() + ";";
-		address += " " + ((JSONObject) obj.get("state")).get("name").toString() + ";";
+		address += " " + ((JSONObject) obj.get("city")).get("name").toString() + " -";
+		address += " " + ((JSONObject) obj.get("state")).get("name").toString() + " -";
 		address += " " + ((JSONObject) obj.get("country")).get("name").toString();
 		
 		return address;
@@ -371,7 +371,7 @@ public class EjercicioUno {
 				payments += "Vendedor: " + paymentJson.get("amount") + " (" + paymentJson.get("status") + ")";
 			}
 			
-			payments += "; ";
+			payments += "  ";
 		}
 					
 		return payments.substring(0, payments.length()-1);
