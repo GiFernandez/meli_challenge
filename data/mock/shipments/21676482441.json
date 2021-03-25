@@ -6,7 +6,7 @@
     "order_cost": 27000,
     "base_cost": 27000,
     "site_id": "MLA",
-    "status": "deelivered",
+    "status": "delivered",
     "substatus": "fulfilled_feedback",
     "status_history": {
         "date_cancelled": null,
