@@ -1,0 +1,53 @@
+{
+    "option_id": 2878634204,
+    "shipping_method": {
+        "id": 73328,
+        "name": "Normal a domicilio",
+        "type": "standard",
+        "deliver_to": "address"
+    },
+    "currency_id": "ARS",
+    "cost": 529.99,
+    "list_cost": 529.99,
+    "cost_type": "charged",
+    "service_id": 422,
+    "delivery_type": "estimated",
+    "estimated_schedule_limit": {
+        "date": null
+    },
+    "buffering": {
+        "date": null
+    },
+    "estimated_delivery_time": {
+        "type": "known_frame",
+        "date": "2021-02-08T00:00:00.000-03:00",
+        "unit": "hour",
+        "offset": {
+            "date": "2021-02-10T00:00:00.000-03:00",
+            "shipping": 48
+        },
+        "time_frame": {
+            "from": null,
+            "to": null
+        },
+        "pay_before": "2021-03-18T00:00:00.000-03:00",
+        "shipping": 48,
+        "handling": 24,
+        "schedule": null
+    },
+    "estimated_delivery_limit": {
+        "date": "2021-04-12T00:00:00.000-03:00",
+        "offset": 240
+    },
+    "estimated_delivery_final": {
+        "date": "2021-04-17T00:00:00.000-03:00",
+        "offset": 720
+    },
+    "estimated_delivery_extended": {
+        "date": "2021-02-20T00:00:00.000-03:00",
+        "offset": 72
+    },
+    "estimated_handling_limit": {
+        "date": "2021-03-18T00:00:00.000-03:00"
+    }
+}

@@ -1,0 +1,8 @@
+Shipment,,,,,,Estimacion de entrega (de mayor a menor en eficiencia),,,,
+ID,Estado actual,Sub-estado actual,Tipo de logistica,Origen,Fecha de Entrega,Estimacion 1,Estimacion 2,Estimacion 3,Llego a tiempo?,Delay respecto de la primera ventana
+40285237748,delivered,fulfilled_feedback,drop_off,Av Congreso 4957 (2718) Urquiza - Capital Federal - Argentina,2021-01-28T09:30:41.000-03:00,2021-01-25T00:00:00.000-03:00,2021-01-30T00:00:00.000-03:00,2021-03-10T00:00:00.000-03:00,No,81:30:41
+40285237091,delivered,fulfilled_feedback,drop_off,Godoy Cruz 2297 (1425) Palermo - Capital Federal - Argentina,2021-03-28T15:43:21.000-03:00,2021-03-25T00:00:00.000-03:00,2021-03-30T00:00:00.000-03:00,2021-05-10T00:00:00.000-03:00,No,87:43:21
+40285238007,delivered,fulfilled_feedback,fulfillment,Pacifico Rodriguez 4927 (1653) Villa Ballester - Buenos Aires - Argentina,2021-02-15T19:50:07.000-03:00,2021-02-10T00:00:00.000-03:00,2021-02-20T00:00:00.000-03:00,2021-04-17T00:00:00.000-03:00,No,139:50:7
+40285237363,delivered,fulfilled_feedback,drop_off,Dr Pedro I Rivera 3037 (1430) Belgrano - Capital Federal - Argentina,2021-03-24T13:25:55.000-03:00,2021-03-22T00:00:00.000-03:00,2021-04-25T00:00:00.000-03:00,2021-05-03T00:00:00.000-03:00,No,61:25:55
+40285237526,shipped,soon_deliver,drop_off,Solis 2929 (1655) Jose Leon Suarez - Buenos Aires - Argentina,,2021-07-25T00:00:00.000-03:00,2021-08-30T00:00:00.000-03:00,2021-09-10T00:00:00.000-03:00,N/A,N/A
+40285237335,delivered,no_action_taken,fulfillment,Av Congreso 3924 (1429) Coghlan - Capital Federal - Argentina,2021-02-25T20:43:21.000-03:00,2021-02-26T00:00:00.000-03:00,2021-03-02T00:00:00.000-03:00,2021-03-10T00:00:00.000-03:00,Si,N/A
