@@ -32,7 +32,7 @@
         "street_name": "XXXXXXX",
         "street_number": "XXXXXXX",
         "comment": "XXXXXXX",
-        "zip_code": "1429"
+        "zip_code": "1429",
         "city": {
             "id": "TUxBQlBBTDI1MTVa",
             "name": "Coghlan"
